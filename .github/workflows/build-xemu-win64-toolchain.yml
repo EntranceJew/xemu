@@ -1,6 +1,7 @@
 name: Build xemu-win64-toolchain
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/build-xemu-win64-toolchain.yml'
